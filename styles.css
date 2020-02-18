@@ -23,11 +23,19 @@ ul li a {
 
 .sub-menu-1,
 .sub-menu-2,
-.sub-menu-3 {
+.sub-menu-3,
+.sub-menu-4,
+.sub-menu-5,
+.sub-menu-6,
+.sub-menu-7,
+.sub-menu-8,
+.sub-menu-9,
+.sub-menu-10 {
     display: none;
 }
 
-.sub-menu-2, .sub-menu-2 li{
+.sub-menu-2,
+.sub-menu-2 li {
     width: 250px;
 }
 
@@ -45,7 +53,15 @@ ul li:hover .sub-menu-1 ul {
     display: block;
 }
 
-.show-sub-menu-2:hover .sub-menu-2, .show-sub-menu-3:hover .sub-menu-3 {
+.show-sub-menu-2:hover .sub-menu-2,
+.show-sub-menu-3:hover .sub-menu-3,
+.show-sub-menu-4:hover .sub-menu-4,
+.show-sub-menu-5:hover .sub-menu-5,
+.show-sub-menu-6:hover .sub-menu-6,
+.show-sub-menu-7:hover .sub-menu-7,
+.show-sub-menu-8:hover .sub-menu-8,
+.show-sub-menu-9:hover .sub-menu-9,
+.show-sub-menu-10:hover .sub-menu-10 {
     display: block;
     position: absolute;
     margin-top: -40px;
@@ -55,6 +71,13 @@ ul li:hover .sub-menu-1 ul {
     margin-left: 200px;
 }
 
-.show-sub-menu-3:hover .sub-menu-3{
+.show-sub-menu-3:hover .sub-menu-3,
+.show-sub-menu-4:hover .sub-menu-4,
+.show-sub-menu-5:hover .sub-menu-5,
+.show-sub-menu-6:hover .sub-menu-6,
+.show-sub-menu-7:hover .sub-menu-7,
+.show-sub-menu-8:hover .sub-menu-8,
+.show-sub-menu-9:hover .sub-menu-9,
+.show-sub-menu-10:hover .sub-menu-10 {
     margin-left: 250px;
 }
